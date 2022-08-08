@@ -31,11 +31,13 @@ public class MovimientoCirculoHorizontal : MonoBehaviour
         if (movimientoH > 0)
         {
             spRd.flipX = false;
+           // gameObject.transform.Rotate = new Vector3(0, 0, -1);
             //gameObject.transform.Rotate(0, 0, -1); //if the player is, then rotate counterclockwise in the x axis    
         }
         else if (movimientoH < 0)
         {
             spRd.flipX = true;
+            //gameObject.transform.Rotate = new Vector3(0, 0, 1);
             //gameObject.transform.Rotate(0, 0, 1); //if he is, then rotate clockwise in the x axis
         }
 
